@@ -1,0 +1,47 @@
+.Main{
+    z-index: 2;
+    position:fixed;
+    background-color: #a40000;
+    background: rgba(164,0,0, 0.5);
+    height: 16vh;
+    display: flex;
+    width: 100%;
+
+}
+
+.buttonRow{
+    z-index: 2;
+    margin-top: 5vh;
+    margin-left: 20vh;
+  
+}
+.button{
+    z-index: 1;
+    display: inline-block;
+    color: white;
+    font-family: 'Vollkorn SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vh;
+    margin-left: 3vw;
+    transition: all .2s ease-in-out;
+   
+    
+}
+.button:hover{
+    opacity: 70%;
+    color: red;
+}
+
+#logopic{
+    position:fixed;
+    z-index: 1;
+    padding-top: 3vh;
+    margin-left: 5vw;
+    width: 16vh;
+    transition: all .2s ease-in-out;
+    
+}
+#logopic:hover{
+    transform: scale(1.1);
+}

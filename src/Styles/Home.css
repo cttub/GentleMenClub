@@ -1,0 +1,69 @@
+.MainHome{
+    align-items: center;
+
+}
+
+#video{
+    z-index: 0;
+    width: 100%;
+}
+.Title{
+    position: absolute; 
+    width: 100vw;
+    height: 79vh;
+    top: 20vh;
+    font-family: 'Vollkorn SC';
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.SubTitle{
+    position: absolute; 
+    width: 100vw;
+    height: 79vh;
+    top: 30vh;
+    font-family: 'Vollkorn SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.row{
+    display: flex;
+    z-index: 1;
+    font-family: 'Vollkorn SC';
+    font-style: normal;
+    font-size: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+    left: 35vw;
+    top: 40vh;
+    position: absolute;
+   
+}
+#midLogo{
+    width: 10vw;
+}
+
+.item{
+    z-index: 1;
+    display: inline-block;
+    text-decoration-line: underline;
+    transition: all .2s ease-in-out;
+
+    
+}
+a:link {color: white;}      /* unvisited link */
+a:visited {color: white;}   /* visited link */
+a:hover {color: white;}     /* mouse over link */
+a:active {color: white;}    /* selected link */
+.item:hover{
+    opacity: 80%;
+    color: red;
+}
