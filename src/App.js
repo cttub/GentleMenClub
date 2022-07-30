@@ -5,6 +5,7 @@ import background from './Assets/background.png';
 import {Navigation} from './Components/Navigation';
 import {Home} from './Components/Home';
 import {Services} from './Components/Services';
+import {Location} from './Components/Location';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Navigation/>
           <Home/>
           <Services/>
+          <Location/>
           </div>     
     </div>
   );

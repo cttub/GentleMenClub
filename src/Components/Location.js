@@ -11,7 +11,9 @@ class Location extends Component{
             <div className = "MainLocation" id = 'location'>
             
           
-            
+                <div className = "Map">
+         
+                </div>
             </div>
 
      
@@ -20,4 +22,4 @@ class Location extends Component{
 }
 
 
-export {Home};
+export {Location};

@@ -24,13 +24,13 @@ class Services extends Component{
                         <div className = "serviceBox">
                             <p class = "serviceSubTitle">Private VIP Room</p>
                             <p class = "serviceDescription">3 Songs.....................................$100</p>
-                            <p class = "serviceDescription">1/2 Hour....................................$300</p>
-                            <p class = "serviceDescription">1 Hour.......................................$500</p>
+                            <p class = "serviceDescription">1/2 Hour....................................$220</p>
+                            <p class = "serviceDescription">1 Hour.......................................$400</p>
                         </div>
                         <div className = "serviceBox">
                             <p class = "serviceSubTitle">Couples</p>
                             <p class = "serviceDescription">1 Song......................................$35</p>
-                            <p class = "serviceDescription">2 Hour......................................$65</p>
+                            <p class = "serviceDescription">2 Songs.....................................$65</p>
                         </div>
                         <div className = "serviceBox">
                             <p class = "serviceSubTitle">Couples VIP Room</p>
