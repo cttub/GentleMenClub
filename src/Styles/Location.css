@@ -1,0 +1,48 @@
+.MainLocation{
+    padding-bottom: 20vh;
+    
+}
+.locationTitle{
+
+   text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Vollkorn SC';
+    text-decoration: underline;
+}
+.locationBody{
+
+    display: flex;
+}
+.LocationName{
+    background-color: brown;
+    font-size: 4vh;
+    color: white;
+    font-family: 'Vollkorn SC';
+    transition: all .2s ease-in-out;
+}
+.LocationName:hover{
+    background-color: brown;
+    opacity: 50%;
+   
+}
+.Address{
+    color: white;
+    font-family: 'Vollkorn';
+    font-size: 3vh;
+}
+.Number{
+    color: white;
+    font-family: 'Vollkorn';
+    font-size: 2.7vh;
+}
+.locationdesc{
+    padding-left: 20vw;
+    
+    width: 20vw;
+}
+.Map{
+    border: solid brown;
+    width: 50vw;
+   
+}

@@ -14,7 +14,7 @@ class Navigation extends Component{
                  <a href = "#home"><p className='button'>home</p></a>
                  <a href = '#services'><p className='button'>services</p></a>
                  <p className='button'>policy</p>
-                 <p className='button'>visit us</p>
+                 <a href = '#location'><p className='button'>visit us</p></a>
                  </div>
     
             </div>
