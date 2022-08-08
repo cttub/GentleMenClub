@@ -8,7 +8,10 @@
 #video{
     z-index: 0;
     width: 100%;
+    
+    
 }
+
 .Title{
     position: absolute; 
     width: 100vw;
@@ -20,6 +23,8 @@
     text-align: center;
     text-decoration-line: underline;
     color: #FFFFFF;
+    opacity: 30%;
+    transition: all .2s ease-in-out;
 }
 .SubTitle{
     position: absolute; 
@@ -32,10 +37,12 @@
     font-size: 30px;
     line-height: 42px;
     text-align: center;
-
+    opacity: 30%;
+    transition: all .2s ease-in-out;
     color: #FFFFFF;
 
 }
+  
 .row{
     display: flex;
     z-index: 1;
@@ -47,14 +54,21 @@
     left: 35vw;
     top: 40vh;
     position: absolute;
+    
    
 }
 #midLogo{
     width: 10vw;
+    opacity: 30%;
+    transition: all .2s ease-in-out;
+}
+#midLogo:hover{
+    opacity: 100%;
 }
 
 .item{
     z-index: 1;
+    opacity: 30%;
     display: inline-block;
     text-decoration-line: underline;
     transition: all .2s ease-in-out;
@@ -66,6 +80,6 @@ a:visited {color: white;}   /* visited link */
 a:hover {color: white;}     /* mouse over link */
 a:active {color: white;}    /* selected link */
 .item:hover{
-    opacity: 80%;
+    opacity: 100%;
     color: red;
 }
