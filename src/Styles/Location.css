@@ -20,12 +20,17 @@
     color: white;
     font-family: 'Vollkorn SC';
     transition: all .2s ease-in-out;
+    width: 20vw;
+  
 }
 .LocationName:hover{
     background-color: brown;
     opacity: 50%;
    
 }
+
+
+
 .Address{
     color: white;
     font-family: 'Vollkorn';

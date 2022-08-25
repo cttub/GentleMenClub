@@ -12,10 +12,13 @@ class Home extends Component{
             
             <p className = "Title">Sensations Gentleman's Club</p>
             <p className = "SubTitle">fully nude • 18 and up •  pay at door</p>
+            
             <div className = "row">
+
             <a href = '#location'><p className = "item">visit us</p></a>
                 <img id = "midLogo" src = {logo}></img>
                 <a href = '#services'><p className = "item">services</p></a>
+
             </div>
             
            

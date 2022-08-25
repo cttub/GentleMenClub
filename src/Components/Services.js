@@ -1,10 +1,13 @@
-import React,{Component} from 'react';
+import React,{Component, useEffect} from 'react';
 import { render } from '@testing-library/react';
 import '../Styles/Services.css';
 import logo from '../Assets/LOGO.png'
 import girls from '../Assets/TwoGirls.png'
+
+
 class Services extends Component{
     render(){
+       
         return(
             
             <div className = "MainServices" id ='services'>
@@ -46,6 +49,9 @@ class Services extends Component{
      
         )
     }
+
+   
+    
 }
 
 
