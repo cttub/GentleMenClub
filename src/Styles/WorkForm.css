@@ -1,0 +1,61 @@
+#workForUs{
+    text-decoration-line: underline;
+    font-size: 2.5vw;
+}
+.Forms{
+    padding-top: 2vh;
+    padding-bottom: 7vh;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Vollkorn SC';
+    font-size: 2vw;
+    text-align: center;
+    background: rgba(199, 30, 18, 0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border-bottom: solid grey;
+    border-left: solid grey;
+}
+.LabelForms{
+    margin-bottom: 7vh;
+}
+.Positions{
+    margin-bottom: 1vh;
+    text-decoration-line: underline;
+    font-family: 'Vollkorn';
+    
+}
+
+#ButtonSubmit{
+    font-family: 'Vollkorn SC';
+    font-size: 2vw;
+   
+}#ButtonSubmit:hover{
+    opacity: 50%;
+}
+#Labels{
+    margin: 2vw;
+
+}
+.secondRowLabels{
+    margin-top: 4vh;
+    margin-right: 8vw;
+}
+.MainForm{
+    padding-bottom: 10vh;
+}
+#phone{
+    font-family: 'Vollkorn SC';
+    font-size: 1.5vw;
+}
+#insideText{
+    font-family: 'Vollkorn';
+    font-size: 1.5vw;
+}
+#experience{
+    width: 50vw;
+    height: 20vh;
+    font-family: 'Vollkorn';
+    font-size: 1.5vw;
+}

@@ -6,6 +6,7 @@ import {Navigation} from './Components/Navigation';
 import {Home} from './Components/Home';
 import {Services} from './Components/Services';
 import {Location} from './Components/Location';
+import {WorkForm} from './Components/WorkForm';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Home/>
           <Services/>
           <Location/>
+          <WorkForm/>
           </div>     
     </div>
   );

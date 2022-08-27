@@ -23,7 +23,7 @@
     text-align: center;
     text-decoration-line: underline;
     color: #FFFFFF;
-    opacity: 30%;
+
     transition: all .2s ease-in-out;
 }
 .SubTitle{
@@ -37,7 +37,7 @@
     font-size: 30px;
     line-height: 42px;
     text-align: center;
-    opacity: 30%;
+
     transition: all .2s ease-in-out;
     color: #FFFFFF;
 
@@ -59,16 +59,15 @@
 }
 #midLogo{
     width: 10vw;
-    opacity: 30%;
+
     transition: all .2s ease-in-out;
 }
 #midLogo:hover{
-    opacity: 100%;
+    opacity: 60%;
 }
 
 .item{
     z-index: 1;
-    opacity: 30%;
     display: inline-block;
     text-decoration-line: underline;
     transition: all .2s ease-in-out;
