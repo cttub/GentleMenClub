@@ -5,8 +5,10 @@ import logo from '../Assets/LOGO.png'
 import hire from '../Assets/hire.png'
 
 import video from '../Assets/video.mp4';
+
 class Home extends Component{
     render(){
+        
         return(
             
             <div className = "MainHome" id = 'home'>
@@ -23,7 +25,7 @@ class Home extends Component{
             </div>
             
            
-            <video id = "video" autoplay controls loop>
+            <video id = "video" autoPlay controls loop>
             <source src = {video} type = "video/mp4"></source>
             </video>
             
