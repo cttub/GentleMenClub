@@ -3,7 +3,8 @@ import { render } from '@testing-library/react';
 import '../Styles/Services.css';
 import logo from '../Assets/LOGO.png'
 import girls from '../Assets/TwoGirls.png'
-
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Services extends Component{
     render(){
@@ -12,9 +13,11 @@ class Services extends Component{
             
             <div className = "MainServices" id ='services'>
             
+            
                 <div className = "Servicerow">
                    <img id = "girls" src = {girls}></img>
                 </div>
+           
                 
                 <div className = "Servicerow" id = "priceDetails">
                     <p className = "serviceTitle">services</p>
@@ -43,6 +46,8 @@ class Services extends Component{
                         </div>
                     </div>
                 </div>
+
+            
             
             </div>
 
