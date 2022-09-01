@@ -8,11 +8,18 @@
     width: 100%;
 
 }
-
+#Instagram{
+    color: white;
+}
+.Socials{
+    float: right;
+}
 .buttonRow{
     z-index: 2;
     margin-top: 5vh;
     margin-left: 20vh;
+    float: left;
+    display: inline-block;
   
 }
 .button{

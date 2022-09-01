@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import { render } from '@testing-library/react';
 import '../Styles/Navigation.css';
-import logo from '../Assets/LOGO.png'
+import logo from '../Assets/LOGO.png';
+
 
 class Navigation extends Component{
     render(){
@@ -10,6 +11,7 @@ class Navigation extends Component{
             <div className = "Main">
                  <img id ='logopic' src = {logo}></img> 
                  <div className = "buttonRow">
+
                  <div className='button'></div> 
                  <a href = "#home"><p className='button'>home</p></a>
                  <a href = '#services'><p className='button'>services</p></a>
@@ -18,6 +20,10 @@ class Navigation extends Component{
                  
                  </div>
     
+                <div className = "buttonRow">
+                   
+                </div>
+
             </div>
 
      
