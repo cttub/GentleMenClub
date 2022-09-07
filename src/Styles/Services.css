@@ -12,7 +12,7 @@
     color: white;
     font-family: 'Vollkorn SC';
     font-style: normal;
-    font-size: 2vw;
+    font-size: 30px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -32,7 +32,7 @@
     text-decoration: underline;
 }
 .serviceDescription{
-    font-size: 1.4vw;
+    font-size: 20px;
     text-align: left;
     font-family: 'Volkhov';
     margin-bottom: -6%;
@@ -41,7 +41,7 @@
 .serviceSubTitle{
     margin-top: 15%;
     margin-bottom: -6%;
-    font-size: 1.6vw;
+    font-size: 25px;
     font-family: 'Volkhov';
     text-align: left;
     font-style: italic;
