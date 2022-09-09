@@ -82,3 +82,22 @@ a:active {color: white;}    /* selected link */
     opacity: 100%;
     color: red;
 }
+
+@media only screen and (max-width: 1112px) {
+
+    #midLogo{
+      display: none;
+    }
+    .item{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 846px) {
+    .SubTitle{
+        display: none;
+    }
+    .Title{
+        display: none;
+    }
+   
+  }

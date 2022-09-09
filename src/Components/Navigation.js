@@ -10,9 +10,10 @@ class Navigation extends Component{
             
             <div className = "Main">
                  <img id ='logopic' src = {logo}></img> 
-                 <div className = "buttonRow">
 
-                 <div className='button'></div> 
+                 <div id = "buttonRow">
+
+                 <div id='button'></div> 
                  <a href = "#home"><p className='button'>home</p></a>
                  <a href = '#services'><p className='button'>services</p></a>
                  <a href = '#location'><p className='button'>visit us</p></a>
@@ -20,9 +21,7 @@ class Navigation extends Component{
                  
                  </div>
     
-                <div className = "buttonRow">
-                   
-                </div>
+               
 
             </div>
 

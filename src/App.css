@@ -10,3 +10,8 @@
 html{
   scroll-behavior: smooth;
 }
+@media only screen and (max-width: 1112px) {
+  #Desktop {
+      display: none;
+  }
+}

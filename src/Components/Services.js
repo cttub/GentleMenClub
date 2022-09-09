@@ -23,26 +23,26 @@ class Services extends Component{
                     <p className = "serviceTitle">services</p>
                     <div className = "Prices">
                         <div className = "serviceBox">
-                            <p class = "serviceSubTitle">Private booth dances</p>
-                            <p class = "serviceDescription">1 Song........................................$25</p>
-                            <p class = "serviceDescription">2 Songs......................................$45</p>
+                            <p class = "serviceSubTitle">Private&nbsp;booth&nbsp;dances</p>
+                            <p class = "serviceDescription">1&nbsp;Song........................................&nbsp;$25</p>
+                            <p class = "serviceDescription">2&nbsp;Songs......................................&nbsp;$45</p>
                         </div>
                         <div className = "serviceBox">
                             <p class = "serviceSubTitle">Private VIP Room</p>
-                            <p class = "serviceDescription">3 Songs.....................................$100</p>
-                            <p class = "serviceDescription">1/2 Hour....................................$220</p>
-                            <p class = "serviceDescription">1 Hour.......................................$400</p>
+                            <p class = "serviceDescription">3&nbsp;Songs.....................................&nbsp;$100</p>
+                            <p class = "serviceDescription">1/2&nbsp;Hour....................................&nbsp;$220</p>
+                            <p class = "serviceDescription">1&nbsp;Hour.......................................&nbsp;$400</p>
                         </div>
                         <div className = "serviceBox">
                             <p class = "serviceSubTitle">Couples</p>
-                            <p class = "serviceDescription">1 Song......................................$35</p>
-                            <p class = "serviceDescription">2 Songs.....................................$65</p>
+                            <p class = "serviceDescription">1&nbsp;Song......................................&nbsp;$35</p>
+                            <p class = "serviceDescription">2&nbsp;Songs.....................................&nbsp;$65</p>
                         </div>
                         <div className = "serviceBox">
-                            <p class = "serviceSubTitle">Couples VIP Room</p>
-                            <p class = "serviceDescription">3 Songs.....................................$130</p>
-                            <p class = "serviceDescription">1/2 Hour....................................$300</p>
-                            <p class = "serviceDescription">1 Hour.......................................$500</p>
+                            <p class = "serviceSubTitle">Couples&nbsp;VIP&nbsp;Room</p>
+                            <p class = "serviceDescription">3&nbsp;Songs.....................................&nbsp;$130</p>
+                            <p class = "serviceDescription">1/2&nbsp;Hour....................................&nbsp;$300</p>
+                            <p class = "serviceDescription">1&nbsp;Hour.......................................&nbsp;$500</p>
                         </div>
                     </div>
                 </div>

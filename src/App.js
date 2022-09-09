@@ -13,14 +13,18 @@ import {BottomNav} from './Components/BottomNav';
 function App() {
   return (
     <div className="App">
-        <div className = "Desktop">     
-          <Navigation/>
-          <Home/>
-          <Services/>
-          <Location/>
-          <WorkForm/>
+
+        
+            <Navigation/>
+            <Home/>
+          <div id = "Desktop">     
+            <Services/>
+            <Location/>
+           
+          </div>  
+          <WorkForm/>  
           <BottomNav/>
-          </div>     
+
     </div>
   );
 }

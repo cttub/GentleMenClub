@@ -14,7 +14,7 @@
 .Socials{
     float: right;
 }
-.buttonRow{
+#buttonRow{
     z-index: 2;
     margin-top: 5vh;
     margin-left: 20vh;
@@ -52,3 +52,10 @@
 #logopic:hover{
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 1112px) {
+
+    #buttonRow{
+      display: none;
+    }
+  }
