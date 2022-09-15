@@ -101,3 +101,13 @@ a:active {color: white;}    /* selected link */
     }
    
   }
+  @media only screen and (max-height: 600px) {
+    .SubTitle {
+        display: none;
+    }
+  }
+  @media only screen and (max-height: 435px) {
+    .Title {
+        display: none;
+    }
+  }

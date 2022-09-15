@@ -15,11 +15,11 @@
     display: flex;
 }
 .LocationName{
+    margin-left: 5%;
     background-color: brown;
     font-size: 4vh;
     color: white;
     font-family: 'Vollkorn SC';
-    transition: all .2s ease-in-out;
     width: 20vw;
   
 }
@@ -28,9 +28,22 @@
     opacity: 50%;
    
 }
+#kansas{
+    float: right;
+    margin-right: 5%;
+}
+#number{
+    float: right;
+    margin-right: 5%;
+}
 
-
-
+.info{
+    display: inline-block;
+    margin-left: 5%;
+    color: white;
+    font-family: 'Vollkorn';
+    font-size: 3vh;
+}
 .Address{
     color: white;
     font-family: 'Vollkorn';
@@ -45,7 +58,4 @@
     padding-left: 20vw;
     
     width: 20vw;
-}
-.Map{
-    width: 50vw;
 }

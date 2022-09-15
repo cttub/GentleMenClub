@@ -1,0 +1,25 @@
+.MapMobile{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.LocationNameMobile{
+    font-family: 'Vollkorn SC';
+    background-color: brown;
+    color: white;
+    width: 50%;
+    height: 30px;
+}
+.infoMobile{
+    display: inline-block;
+    font-family: 'Vollkorn SC';
+    color: white;
+
+}
+#numberMobile{
+    float: right;
+    margin-right: 5%;
+}
+#kansasMobile{
+    float: right;   
+}

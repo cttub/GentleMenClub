@@ -6,6 +6,7 @@ import {Navigation} from './Components/Navigation';
 import {Home} from './Components/Home';
 import {Services} from './Components/Services';
 import {Location} from './Components/Location';
+import {LocationMobile} from './Components/LocationMobile';
 import {WorkForm} from './Components/WorkForm';
 import {BottomNav} from './Components/BottomNav';
 
@@ -17,9 +18,13 @@ function App() {
         
             <Navigation/>
             <Home/>
+            <div id = "Mobile">
+                 <LocationMobile/>
+            </div>
           <div id = "Desktop">     
             <Services/>
             <Location/>
+            
            
           </div>  
           <WorkForm/>  
