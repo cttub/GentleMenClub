@@ -10,17 +10,21 @@
     font-family: 'Vollkorn SC';
     text-decoration: underline;
 }
+.locationTitle:nth-child(2){
+    text-decoration: none;
+    font-size: 1.5vw;
+}
 .locationBody{
 
     display: flex;
 }
 .LocationName{
-    margin-left: 5%;
     background-color: brown;
     font-size: 4vh;
     color: white;
     font-family: 'Vollkorn SC';
     width: 20vw;
+    display: inline-block;
   
 }
 .LocationName:hover{
@@ -58,4 +62,18 @@
     padding-left: 20vw;
     
     width: 20vw;
+}
+.LocationName:nth-child(3){
+    background: none;
+    font-size: 2.7vh;
+    margin-left: 17%;
+   
+}.LocationName:nth-child(3):hover{
+    background: none;
+    opacity: 100%;
+   
+}
+.LocationName:nth-child(2){
+    float: left;
+    margin-left: 5%;
 }

@@ -11,10 +11,10 @@ class Location extends Component{
             
             <div className = "MainLocation" id = 'location'>
             <p className="locationTitle">visit us</p>
-
+          
            
             <button className = "LocationName" onClick = {inolaMap}>Oklahoma</button>
-      
+            <p className="LocationName">choose our location</p>
             <button className = "LocationName" id = "kansas" onClick = {kansasMap}>Kansas</button>
            
 

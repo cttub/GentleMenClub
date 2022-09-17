@@ -24,11 +24,11 @@ function App() {
           <div id = "Desktop">     
             <Services/>
             <Location/>
-            
-           
           </div>  
           <WorkForm/>  
+          
           <BottomNav/>
+
 
     </div>
   );

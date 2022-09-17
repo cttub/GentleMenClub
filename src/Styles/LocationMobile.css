@@ -10,6 +10,13 @@
     width: 50%;
     height: 30px;
 }
+
+.LocationNameMobile:nth-child(1){
+    width: 100%;
+    text-align: center;
+    background: none;
+    
+}
 .infoMobile{
     display: inline-block;
     font-family: 'Vollkorn SC';
@@ -22,4 +29,7 @@
 }
 #kansasMobile{
     float: right;   
+}
+#hoursMobile{
+    margin-left: 5%;
 }

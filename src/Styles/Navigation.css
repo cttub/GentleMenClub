@@ -58,4 +58,7 @@
     #buttonRow{
       display: none;
     }
+    .Main{
+        background: none;
+    }
   }
