@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e54a1abb.css",
+    "main.js": "/static/js/main.948ae3a8.js",
+    "static/js/787.03a2ce90.chunk.js": "/static/js/787.03a2ce90.chunk.js",
+    "static/media/video.mp4": "/static/media/video.7f21f6d919fb26c5b004.mp4",
+    "static/media/LOGO.png": "/static/media/LOGO.4c1aa9b49f8beb1ce4c4.png",
+    "static/media/TwoGirls.png": "/static/media/TwoGirls.b336de31d832c2a124f1.png",
+    "static/media/hire.png": "/static/media/hire.3573555a6d158053b90a.png",
+    "static/media/background.png": "/static/media/background.ac3f59e94816407228d5.png",
+    "static/media/logo.svg": "/static/media/logo.eb8e5fbdaacfd71f0ebb7d59fd3bee46.svg",
+    "index.html": "/index.html",
+    "main.e54a1abb.css.map": "/static/css/main.e54a1abb.css.map",
+    "main.948ae3a8.js.map": "/static/js/main.948ae3a8.js.map",
+    "787.03a2ce90.chunk.js.map": "/static/js/787.03a2ce90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e54a1abb.css",
+    "static/js/main.948ae3a8.js"
+  ]
+}
