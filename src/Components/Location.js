@@ -26,7 +26,7 @@ class Location extends Component{
 
                 </div>
 
-            <p className = "info" id = "hours">Monday-Saturday: 7pm - 3am</p>
+            <p className = "info" id = "hours">Monday-Sunday 7pm-3pm</p>
             <p className = "info" id = "number">(918)543-3488</p>
             </div>
                 
@@ -52,7 +52,7 @@ class Location extends Component{
             
 
             div = document.getElementById('hours');
-            div.innerHTML = `Monday-Saturday: 7pm - 3am`;
+            div.innerHTML = `Monday-Sunday: 7pm - 3am`;
 
             div = document.getElementById('number');
             div.innerHTML = `(918)543-3488`;
