@@ -27,7 +27,7 @@ class LocationMobile extends Component{
                     </iframe>
                 </div>
                     
-                    <p id = "hoursMobile" className = "infoMobile">Mon-Sat: 7pm - 3am</p>
+                    <p id = "hoursMobile" className = "infoMobile">Mon-Sun: 7pm - 3am</p>
                     <p id = "numberMobile" className = "infoMobile">(918)543-3488</p>
             </div>
                 
@@ -54,7 +54,7 @@ class LocationMobile extends Component{
         
 
         div = document.getElementById('hoursMobile');
-        div.innerHTML = `Mon-Sat: 7pm - 3am`;
+        div.innerHTML = `Mon-Sun: 7pm - 3am`;
 
         div = document.getElementById('numberMobile');
         div.innerHTML = `(918)543-3488`;
